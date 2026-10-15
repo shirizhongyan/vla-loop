@@ -1,0 +1,204 @@
+[
+  {
+    "id": "table-center",
+    "episode_in_task": 1,
+    "sources": [
+      {
+        "run_id": "openvla_spatial",
+        "success": false,
+        "filename": "2026_09_20-17_15_43--episode=101--success=False--task=pick_up_the_black_bowl_from_table_center_and_place.mp4",
+        "sha256": "234a71f9c59b63da5244159ff69c36ce31f981b23814af0afb4f99c249c19315",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 224,
+              "height": 224,
+              "r_frame_rate": "30/1",
+              "nb_frames": "220"
+            }
+          ],
+          "format": {
+            "duration": "7.333333"
+          }
+        }
+      },
+      {
+        "run_id": "oft_spatial",
+        "success": true,
+        "filename": "2026_10_14-09_01_32--openvla_oft--episode=101--success=True--task=pick_up_the_black_bowl_from_table_center_and_place.mp4",
+        "sha256": "389e8389f997f9eda44ad9cb9a60584d758b2335f1961c7a7f217a12e59a5a1e",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 256,
+              "height": 256,
+              "r_frame_rate": "30/1",
+              "nb_frames": "95"
+            }
+          ],
+          "format": {
+            "duration": "3.166667"
+          }
+        }
+      }
+    ],
+    "task": "pick up the black bowl from table center and place it on the plate",
+    "global_episode": 101,
+    "first_frame_mae_after_resize_224": 1.8796635841836735,
+    "rendered_files": [
+      {
+        "path": "media/table-center.mp4",
+        "sha256": "cb521385a88fff3c14ed150bccbf3c3d3d833d435ead94feb730c75d4426e125",
+        "bytes": 185199,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 640,
+              "height": 364,
+              "r_frame_rate": "30/1",
+              "nb_frames": "220"
+            }
+          ],
+          "format": {
+            "duration": "7.333333"
+          }
+        }
+      },
+      {
+        "path": "media/table-center.gif",
+        "sha256": "83c3d5e7b24377c1ad492126c9e5ad56efd321b821c0fdf094b68cd149ba3d2a",
+        "bytes": 1456476,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 640,
+              "height": 364,
+              "r_frame_rate": "12/1",
+              "nb_frames": "88"
+            }
+          ],
+          "format": {
+            "duration": "7.330000"
+          }
+        }
+      }
+    ],
+    "rendering": {
+      "source_fps": 30,
+      "mp4_fps": 30,
+      "gif_fps": 12,
+      "shorter_side": "hold last frame",
+      "spatial_crop": "none",
+      "selection": "OpenVLA incomplete, OFT successful on matching task and default initial-state index"
+    }
+  },
+  {
+    "id": "top-drawer",
+    "episode_in_task": 3,
+    "sources": [
+      {
+        "run_id": "openvla_spatial",
+        "success": false,
+        "filename": "2026_09_20-17_15_43--episode=203--success=False--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4",
+        "sha256": "cc9310b494d1a5194918752eee0d7b0f98216a2d7a5da033416d8692457db451",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 224,
+              "height": 224,
+              "r_frame_rate": "30/1",
+              "nb_frames": "220"
+            }
+          ],
+          "format": {
+            "duration": "7.333333"
+          }
+        }
+      },
+      {
+        "run_id": "oft_spatial",
+        "success": true,
+        "filename": "2026_10_14-09_01_32--openvla_oft--episode=203--success=True--task=pick_up_the_black_bowl_in_the_top_drawer_of_the_wo.mp4",
+        "sha256": "de231d68061139efcd73697f99310b9e5b5d51283b091b0fd9fa45323f31bcad",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 256,
+              "height": 256,
+              "r_frame_rate": "30/1",
+              "nb_frames": "112"
+            }
+          ],
+          "format": {
+            "duration": "3.733333"
+          }
+        }
+      }
+    ],
+    "task": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+    "global_episode": 203,
+    "first_frame_mae_after_resize_224": 1.8159345769557824,
+    "rendered_files": [
+      {
+        "path": "media/top-drawer.mp4",
+        "sha256": "4a61ca13ef8364e7a69bde49c52bca417c7dc5369ab5458364ed3ec1962ba983",
+        "bytes": 245368,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 640,
+              "height": 364,
+              "r_frame_rate": "30/1",
+              "nb_frames": "220"
+            }
+          ],
+          "format": {
+            "duration": "7.333333"
+          }
+        }
+      },
+      {
+        "path": "media/top-drawer.gif",
+        "sha256": "e6fa88316f1d64a0e96a41fe10153bfedfaadf7e4ddd899498d38347a21670e0",
+        "bytes": 1912828,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "width": 640,
+              "height": 364,
+              "r_frame_rate": "12/1",
+              "nb_frames": "88"
+            }
+          ],
+          "format": {
+            "duration": "7.330000"
+          }
+        }
+      }
+    ],
+    "rendering": {
+      "source_fps": 30,
+      "mp4_fps": 30,
+      "gif_fps": 12,
+      "shorter_side": "hold last frame",
+      "spatial_crop": "none",
+      "selection": "OpenVLA incomplete, OFT successful on matching task and default initial-state index"
+    }
+  }
+]

@@ -15,6 +15,7 @@ rollouts/
 *.pt
 *.pth
 *.mp4
+!media/*.mp4
 *.wandb
 *.pem
 *.key
