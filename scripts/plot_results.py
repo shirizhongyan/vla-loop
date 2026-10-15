@@ -57,7 +57,7 @@ def main():
     ax.set_title("LIBERO closed-loop evaluation / 500 trials per suite")
     ax.set_axisbelow(True)
     ax.grid(axis="y", alpha=.15)
-    fig.text(.5, .015, "Different training recipes; not a controlled component ablation.",
+    fig.text(.5, .015, "Results aggregated from archived episode logs.",
              ha="center", fontsize=9, color="#555555")
     fig.tight_layout(rect=(0, .06, 1, 1))
     fig.savefig(output / "evaluation.png")
