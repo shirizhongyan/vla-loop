@@ -1,0 +1,81 @@
+{
+  "snapshot_date": "2026-10-15",
+  "original_evaluation_sources": [
+    {
+      "source": "openvla/experiments/logs/EVAL-libero_spatial-openvla-2026_09_20-17_15_43.txt",
+      "sha256": "d09ddee44391f9a0a44e1276f154d116e2296c4ee7e0054d3dd72c7a1478c1c6",
+      "published_path": "results/evaluations/EVAL-libero_spatial-openvla-2026_09_20-17_15_43.txt"
+    },
+    {
+      "source": "openvla/experiments/logs/EVAL-libero_object-openvla-2026_09_20-17_15_43.txt",
+      "sha256": "52867165d6a51b8e63c2ad1c80a5f65e7f636aae11e3906aaff5d755e621bb2c",
+      "published_path": "results/evaluations/EVAL-libero_object-openvla-2026_09_20-17_15_43.txt"
+    },
+    {
+      "source": "openvla/experiments/logs/EVAL-libero_goal-openvla-2026_09_20-23_47_04.txt",
+      "sha256": "3a74e2d2fa89abdec3407fc148d429131608e0f944fe78cbf66164fbd0eb2a28",
+      "published_path": "results/evaluations/EVAL-libero_goal-openvla-2026_09_20-23_47_04.txt"
+    },
+    {
+      "source": "openvla/experiments/logs/EVAL-libero_spatial-openvla-2026_10_09-06_33_03.txt",
+      "sha256": "db9f3f0776133f941cdf56ac7a279f4fa13bc68fe9261cb579d5faf4df3f41ba",
+      "published_path": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_09-06_33_03.txt"
+    },
+    {
+      "source": "openvla/experiments/logs/EVAL-libero_spatial-openvla-2026_10_12-02_10_30.txt",
+      "sha256": "3a9741bbdce9273f39f072f0285110cac6c66af163780fbbee4747fdab9e1185",
+      "published_path": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_12-02_10_30.txt"
+    },
+    {
+      "source": "openvla-oft/experiments/logs/EVAL-libero_spatial-openvla-2026_10_14-09_01_32.txt",
+      "sha256": "8135ece28bfa3ac3966806ff5da7b22a466d4288e55e71a9d4888c4febd349d1",
+      "published_path": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_14-09_01_32.txt"
+    }
+  ],
+  "training_source": {
+    "source": "OFT W&B offline run adav1gft",
+    "sha256": "80d6ac52d8d5f3e4b2a27398282335e18cb82358f00ec10c971ec92459ba610e"
+  },
+  "published_files": [
+    {
+      "path": "results/episodes.csv",
+      "sha256": "0b7bf0a7f9f4425c1d72bdad6f97ad8c8db7d1fe121923780e6b7b655a5f7d84"
+    },
+    {
+      "path": "results/evaluations/EVAL-libero_goal-openvla-2026_09_20-23_47_04.txt",
+      "sha256": "32850580c87705ab26cd5a593a268caa873fed16b14b65ed28c5b4d846737a57"
+    },
+    {
+      "path": "results/evaluations/EVAL-libero_object-openvla-2026_09_20-17_15_43.txt",
+      "sha256": "f1bf111c91f7aa387b9289775cb6593b05d67471c60f8da520f70f08e53fbd5a"
+    },
+    {
+      "path": "results/evaluations/EVAL-libero_spatial-openvla-2026_09_20-17_15_43.txt",
+      "sha256": "d73fed32b0824e2a5aa12d764cdab5f25c472e9ffdd30f2e847d46dd4e7a4b01"
+    },
+    {
+      "path": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_09-06_33_03.txt",
+      "sha256": "9640d528309a05594c22b1031585076a89851e8fa6e2a2fcef0a684b69c442a9"
+    },
+    {
+      "path": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_12-02_10_30.txt",
+      "sha256": "7d2a4b7d384f98e1fdaf9fd13706b385bc46b586a325d247007602408f390967"
+    },
+    {
+      "path": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_14-09_01_32.txt",
+      "sha256": "153e5e8113f6fb8d1ab70beeba207e0b70d6ae73721da199e16e393596b93385"
+    },
+    {
+      "path": "results/summary.json",
+      "sha256": "a49f285efccb5174f73a69c4ce78c959821818cb22fe85f7d04ba9602848db5d"
+    },
+    {
+      "path": "results/tasks.csv",
+      "sha256": "0ee07ed86fbad820549613bdae1ea753367f5a02d1a75ec75135c8ee668c913a"
+    },
+    {
+      "path": "results/training/oft.csv",
+      "sha256": "5e6e9d5084d655b58832d9d332ff64f918d319ecdbd11c5ad3c92572f2ce2b63"
+    }
+  ]
+}

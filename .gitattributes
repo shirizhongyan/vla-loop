@@ -1,0 +1,5 @@
+* text=auto
+*.csv text eol=lf
+# Unified diff context lines contain a required leading space.
+*.patch whitespace=-blank-at-eol
+*.png binary

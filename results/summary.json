@@ -1,0 +1,62 @@
+[
+  {
+    "run_id": "openvla_spatial",
+    "suite": "libero_spatial",
+    "episodes": 500,
+    "successes": 423,
+    "success_rate": 0.846,
+    "complete_500_trial_run": true,
+    "episode_errors": 0,
+    "evidence": "results/evaluations/EVAL-libero_spatial-openvla-2026_09_20-17_15_43.txt"
+  },
+  {
+    "run_id": "openvla_object",
+    "suite": "libero_object",
+    "episodes": 500,
+    "successes": 433,
+    "success_rate": 0.866,
+    "complete_500_trial_run": true,
+    "episode_errors": 0,
+    "evidence": "results/evaluations/EVAL-libero_object-openvla-2026_09_20-17_15_43.txt"
+  },
+  {
+    "run_id": "openvla_goal",
+    "suite": "libero_goal",
+    "episodes": 500,
+    "successes": 375,
+    "success_rate": 0.75,
+    "complete_500_trial_run": true,
+    "episode_errors": 0,
+    "evidence": "results/evaluations/EVAL-libero_goal-openvla-2026_09_20-23_47_04.txt"
+  },
+  {
+    "run_id": "qlora_stage1",
+    "suite": "libero_spatial",
+    "episodes": 489,
+    "successes": 0,
+    "success_rate": 0.0,
+    "complete_500_trial_run": false,
+    "episode_errors": 0,
+    "evidence": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_09-06_33_03.txt"
+  },
+  {
+    "run_id": "qlora_stage2",
+    "suite": "libero_spatial",
+    "episodes": 500,
+    "successes": 0,
+    "success_rate": 0.0,
+    "complete_500_trial_run": true,
+    "episode_errors": 0,
+    "evidence": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_12-02_10_30.txt"
+  },
+  {
+    "run_id": "oft_spatial",
+    "suite": "libero_spatial",
+    "episodes": 500,
+    "successes": 478,
+    "success_rate": 0.956,
+    "complete_500_trial_run": true,
+    "episode_errors": 0,
+    "evidence": "results/evaluations/EVAL-libero_spatial-openvla-2026_10_14-09_01_32.txt"
+  }
+]

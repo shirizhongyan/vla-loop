@@ -1,0 +1,61 @@
+run_id,task,episodes,successes,success_rate
+openvla_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,50,45,0.9
+openvla_spatial,pick up the black bowl next to the ramekin and place it on the plate,50,46,0.92
+openvla_spatial,pick up the black bowl from table center and place it on the plate,50,44,0.88
+openvla_spatial,pick up the black bowl on the cookie box and place it on the plate,50,47,0.94
+openvla_spatial,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,50,34,0.68
+openvla_spatial,pick up the black bowl on the ramekin and place it on the plate,50,48,0.96
+openvla_spatial,pick up the black bowl next to the cookie box and place it on the plate,50,48,0.96
+openvla_spatial,pick up the black bowl on the stove and place it on the plate,50,39,0.78
+openvla_spatial,pick up the black bowl next to the plate and place it on the plate,50,40,0.8
+openvla_spatial,pick up the black bowl on the wooden cabinet and place it on the plate,50,32,0.64
+openvla_object,pick up the alphabet soup and place it in the basket,50,41,0.82
+openvla_object,pick up the cream cheese and place it in the basket,50,41,0.82
+openvla_object,pick up the salad dressing and place it in the basket,50,45,0.9
+openvla_object,pick up the bbq sauce and place it in the basket,50,32,0.64
+openvla_object,pick up the ketchup and place it in the basket,50,46,0.92
+openvla_object,pick up the tomato sauce and place it in the basket,50,37,0.74
+openvla_object,pick up the butter and place it in the basket,50,46,0.92
+openvla_object,pick up the milk and place it in the basket,50,47,0.94
+openvla_object,pick up the chocolate pudding and place it in the basket,50,48,0.96
+openvla_object,pick up the orange juice and place it in the basket,50,50,1.0
+openvla_goal,open the middle drawer of the cabinet,50,28,0.56
+openvla_goal,put the bowl on the stove,50,43,0.86
+openvla_goal,put the wine bottle on top of the cabinet,50,40,0.8
+openvla_goal,open the top drawer and put the bowl inside,50,33,0.66
+openvla_goal,put the bowl on top of the cabinet,50,44,0.88
+openvla_goal,push the plate to the front of the stove,50,35,0.7
+openvla_goal,put the cream cheese in the bowl,50,34,0.68
+openvla_goal,turn on the stove,50,49,0.98
+openvla_goal,put the bowl on the plate,50,43,0.86
+openvla_goal,put the wine bottle on the rack,50,26,0.52
+qlora_stage1,pick up the black bowl between the plate and the ramekin and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl next to the ramekin and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl from table center and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl on the cookie box and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl on the ramekin and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl next to the cookie box and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl on the stove and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl next to the plate and place it on the plate,50,0,0.0
+qlora_stage1,pick up the black bowl on the wooden cabinet and place it on the plate,39,0,0.0
+qlora_stage2,pick up the black bowl between the plate and the ramekin and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl next to the ramekin and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl from table center and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl on the cookie box and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl on the ramekin and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl next to the cookie box and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl on the stove and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl next to the plate and place it on the plate,50,0,0.0
+qlora_stage2,pick up the black bowl on the wooden cabinet and place it on the plate,50,0,0.0
+oft_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,50,48,0.96
+oft_spatial,pick up the black bowl next to the ramekin and place it on the plate,50,50,1.0
+oft_spatial,pick up the black bowl from table center and place it on the plate,50,50,1.0
+oft_spatial,pick up the black bowl on the cookie box and place it on the plate,50,49,0.98
+oft_spatial,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,50,39,0.78
+oft_spatial,pick up the black bowl on the ramekin and place it on the plate,50,50,1.0
+oft_spatial,pick up the black bowl next to the cookie box and place it on the plate,50,50,1.0
+oft_spatial,pick up the black bowl on the stove and place it on the plate,50,47,0.94
+oft_spatial,pick up the black bowl next to the plate and place it on the plate,50,46,0.92
+oft_spatial,pick up the black bowl on the wooden cabinet and place it on the plate,50,49,0.98

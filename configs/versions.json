@@ -1,0 +1,42 @@
+{
+  "snapshot_date": "2026-10-15",
+  "sources": {
+    "openvla": {
+      "url": "https://github.com/openvla/openvla.git",
+      "commit": "c8f03f48af692657d3060c19588038c7220e9af9"
+    },
+    "openvla-oft": {
+      "url": "https://github.com/moojink/openvla-oft.git",
+      "commit": "e4287e94541f459edc4feabc4e181f537cd569a8"
+    },
+    "LIBERO": {
+      "url": "https://github.com/Lifelong-Robot-Learning/LIBERO.git",
+      "commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01"
+    },
+    "transformers": {
+      "url": "https://github.com/moojink/transformers-openvla-oft.git",
+      "commit": "bc339d9ad707454c0c115970db43c260067c61ab"
+    }
+  },
+  "observed_oft_environment": {
+    "python": "3.10",
+    "gpu": "NVIDIA GeForce RTX 5070 Ti",
+    "gpu_memory_mib": 16303,
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "transformers_version_string": "4.40.1",
+    "transformers_source": "Use the pinned fork above, not PyPI transformers==4.40.1",
+    "peft": "0.11.1",
+    "bitsandbytes": "0.50.2",
+    "tensorflow": "2.15.0.post1",
+    "tensorflow-cpu": "2.15.0",
+    "mujoco": "2.3.7",
+    "robosuite": "1.4.0",
+    "numpy": "1.26.4",
+    "timm": "0.9.10",
+    "accelerate": "0.30.1",
+    "wandb": "0.16.6",
+    "draccus": "0.8.0"
+  },
+  "environment_status": "Observed working environment, not a clean-install lockfile. pip check has dependency conflicts; see docs/复现.md."
+}
