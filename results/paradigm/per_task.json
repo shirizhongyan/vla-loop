@@ -1,0 +1,116 @@
+{
+  "flow_matching": {
+    "pick_up_the_black_bowl_between_the_plate_and_the_r": {
+      "episodes": 50,
+      "successes": 43,
+      "success_rate": 0.86
+    },
+    "pick_up_the_black_bowl_next_to_the_ramekin_and_pla": {
+      "episodes": 50,
+      "successes": 44,
+      "success_rate": 0.88
+    },
+    "pick_up_the_black_bowl_from_table_center_and_place": {
+      "episodes": 50,
+      "successes": 47,
+      "success_rate": 0.94
+    },
+    "pick_up_the_black_bowl_on_the_cookie_box_and_place": {
+      "episodes": 50,
+      "successes": 45,
+      "success_rate": 0.9
+    },
+    "pick_up_the_black_bowl_in_the_top_drawer_of_the_wo": {
+      "episodes": 50,
+      "successes": 28,
+      "success_rate": 0.56
+    },
+    "pick_up_the_black_bowl_on_the_ramekin_and_place_it": {
+      "episodes": 50,
+      "successes": 47,
+      "success_rate": 0.94
+    },
+    "pick_up_the_black_bowl_next_to_the_cookie_box_and_": {
+      "episodes": 50,
+      "successes": 47,
+      "success_rate": 0.94
+    },
+    "pick_up_the_black_bowl_on_the_stove_and_place_it_o": {
+      "episodes": 50,
+      "successes": 20,
+      "success_rate": 0.4
+    },
+    "pick_up_the_black_bowl_next_to_the_plate_and_place": {
+      "episodes": 50,
+      "successes": 47,
+      "success_rate": 0.94
+    },
+    "pick_up_the_black_bowl_on_the_wooden_cabinet_and_p": {
+      "episodes": 50,
+      "successes": 17,
+      "success_rate": 0.34
+    },
+    "total": {
+      "episodes": 500,
+      "successes": 385,
+      "success_rate": 0.77
+    }
+  },
+  "diffusion": {
+    "pick_up_the_black_bowl_between_the_plate_and_the_r": {
+      "episodes": 50,
+      "successes": 34,
+      "success_rate": 0.68
+    },
+    "pick_up_the_black_bowl_next_to_the_ramekin_and_pla": {
+      "episodes": 50,
+      "successes": 42,
+      "success_rate": 0.84
+    },
+    "pick_up_the_black_bowl_from_table_center_and_place": {
+      "episodes": 50,
+      "successes": 34,
+      "success_rate": 0.68
+    },
+    "pick_up_the_black_bowl_on_the_cookie_box_and_place": {
+      "episodes": 50,
+      "successes": 43,
+      "success_rate": 0.86
+    },
+    "pick_up_the_black_bowl_in_the_top_drawer_of_the_wo": {
+      "episodes": 50,
+      "successes": 8,
+      "success_rate": 0.16
+    },
+    "pick_up_the_black_bowl_on_the_ramekin_and_place_it": {
+      "episodes": 50,
+      "successes": 31,
+      "success_rate": 0.62
+    },
+    "pick_up_the_black_bowl_next_to_the_cookie_box_and_": {
+      "episodes": 50,
+      "successes": 38,
+      "success_rate": 0.76
+    },
+    "pick_up_the_black_bowl_on_the_stove_and_place_it_o": {
+      "episodes": 50,
+      "successes": 11,
+      "success_rate": 0.22
+    },
+    "pick_up_the_black_bowl_next_to_the_plate_and_place": {
+      "episodes": 50,
+      "successes": 27,
+      "success_rate": 0.54
+    },
+    "pick_up_the_black_bowl_on_the_wooden_cabinet_and_p": {
+      "episodes": 50,
+      "successes": 14,
+      "success_rate": 0.28
+    },
+    "total": {
+      "episodes": 500,
+      "successes": 282,
+      "success_rate": 0.564
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "flow_matching": {
+    "episodes": 500,
+    "successes": 385,
+    "success_rate": 0.77
+  },
+  "diffusion": {
+    "episodes": 500,
+    "successes": 282,
+    "success_rate": 0.564
+  },
+  "episodes_with_disagreeing_outcomes": 175
+}
