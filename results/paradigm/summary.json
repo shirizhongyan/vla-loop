@@ -1,0 +1,57 @@
+{
+  "benchmark": "LIBERO-Spatial, 10 tasks x 50 trials, seed 7, default initial states",
+  "training": {
+    "steps": 10000,
+    "identical_hyperparameters": true,
+    "gradient_clip_total_norm": 1.0,
+    "notes": "The pre-existing L1 baseline predates the gradient-clipping fix, so it is not strictly aligned."
+  },
+  "runs": {
+    "l1": {
+      "successes": 478,
+      "episodes": 500,
+      "success_rate": 0.956,
+      "inference_steps": 1,
+      "training_hours": 38.09,
+      "final_train_loss": 0.0908,
+      "final_curr_action_l1": 0.09423,
+      "final_next_actions_l1": 0.09037,
+      "source": "Pre-existing run, trained before the gradient-clipping fix."
+    },
+    "flow_matching": {
+      "successes": 385,
+      "episodes": 500,
+      "success_rate": 0.77,
+      "inference_steps": 10,
+      "training_hours": 43.57,
+      "final_train_loss": 0.1247,
+      "final_curr_action_l1": 0.15036,
+      "final_next_actions_l1": 0.14832,
+      "final_grad_norm_mean": 2.90275,
+      "final_grad_norm_max": 4.37727
+    },
+    "diffusion": {
+      "successes": 282,
+      "episodes": 500,
+      "success_rate": 0.564,
+      "inference_steps": 50,
+      "training_hours": 51.74,
+      "final_train_loss": 0.1700,
+      "final_curr_action_l1": 0.25674,
+      "final_next_actions_l1": 0.21814,
+      "final_grad_norm_mean": 2.25857,
+      "final_grad_norm_max": 3.45404
+    }
+  },
+  "offline_action_l1_on_shared_observations": {
+    "note": "18 observations from the training split, first action of the chunk against the ground truth.",
+    "l1": 0.1765,
+    "flow_matching_10_steps": 0.1821,
+    "diffusion": 0.2313
+  },
+  "gradient_norm_by_step_range": {
+    "note": "Pre-clip total gradient norm, window maximum.",
+    "flow_matching": {"0-100": 433.64, "100-1000": 29.66, "1000-2500": 16.63, "2500-5000": 12.11, "5000-8000": 10.32, "8000-10000": 8.25},
+    "diffusion": {"0-100": 467.21, "100-1000": 21.89, "1000-2500": 11.38, "2500-5000": 7.94, "5000-8000": 7.53, "8000-10000": 5.63}
+  }
+}
