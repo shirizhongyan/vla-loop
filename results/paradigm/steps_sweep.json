@@ -1,0 +1,284 @@
+[
+  {
+    "steps": 1,
+    "episodes": 100,
+    "successes": 89,
+    "per_task": {
+      "pick up the black bowl between the plate and the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl next to the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl from table center and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl next to the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the stove and place it on the plate": {
+        "episodes": 10,
+        "successes": 5
+      },
+      "pick up the black bowl next to the plate and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 4
+      }
+    }
+  },
+  {
+    "steps": 2,
+    "episodes": 100,
+    "successes": 87,
+    "per_task": {
+      "pick up the black bowl between the plate and the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl next to the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl from table center and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl next to the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the stove and place it on the plate": {
+        "episodes": 10,
+        "successes": 4
+      },
+      "pick up the black bowl next to the plate and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 4
+      }
+    }
+  },
+  {
+    "steps": 5,
+    "episodes": 100,
+    "successes": 84,
+    "per_task": {
+      "pick up the black bowl between the plate and the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl next to the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl from table center and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 7
+      },
+      "pick up the black bowl on the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl next to the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the stove and place it on the plate": {
+        "episodes": 10,
+        "successes": 5
+      },
+      "pick up the black bowl next to the plate and place it on the plate": {
+        "episodes": 10,
+        "successes": 8
+      },
+      "pick up the black bowl on the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 5
+      }
+    }
+  },
+  {
+    "steps": 10,
+    "episodes": 100,
+    "successes": 80,
+    "per_task": {
+      "pick up the black bowl between the plate and the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 7
+      },
+      "pick up the black bowl next to the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl from table center and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 6
+      },
+      "pick up the black bowl on the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl next to the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the stove and place it on the plate": {
+        "episodes": 10,
+        "successes": 6
+      },
+      "pick up the black bowl next to the plate and place it on the plate": {
+        "episodes": 10,
+        "successes": 8
+      },
+      "pick up the black bowl on the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 5
+      }
+    }
+  },
+  {
+    "steps": 20,
+    "episodes": 100,
+    "successes": 76,
+    "per_task": {
+      "pick up the black bowl between the plate and the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 7
+      },
+      "pick up the black bowl next to the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl from table center and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl on the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 6
+      },
+      "pick up the black bowl on the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl next to the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl on the stove and place it on the plate": {
+        "episodes": 10,
+        "successes": 3
+      },
+      "pick up the black bowl next to the plate and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl on the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 4
+      }
+    }
+  },
+  {
+    "steps": 50,
+    "episodes": 100,
+    "successes": 77,
+    "per_task": {
+      "pick up the black bowl between the plate and the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 7
+      },
+      "pick up the black bowl next to the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 8
+      },
+      "pick up the black bowl from table center and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 8
+      },
+      "pick up the black bowl on the ramekin and place it on the plate": {
+        "episodes": 10,
+        "successes": 9
+      },
+      "pick up the black bowl next to the cookie box and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the stove and place it on the plate": {
+        "episodes": 10,
+        "successes": 4
+      },
+      "pick up the black bowl next to the plate and place it on the plate": {
+        "episodes": 10,
+        "successes": 10
+      },
+      "pick up the black bowl on the wooden cabinet and place it on the plate": {
+        "episodes": 10,
+        "successes": 1
+      }
+    }
+  }
+]
