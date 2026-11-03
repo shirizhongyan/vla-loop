@@ -1,0 +1,20 @@
+{
+  "suite": "libero_spatial",
+  "seed": 7,
+  "checkpoint_training_steps": 10000,
+  "checkpoint_run": "paradigm_fm",
+  "num_open_loop_steps": 8,
+  "num_images_in_input": 1,
+  "use_proprio": false,
+  "load_in_8bit": true,
+  "runs": [
+    {"steps": 1, "scope": "full", "episodes": 500, "successes": 435},
+    {"steps": 2, "scope": "full", "episodes": 500, "successes": 431},
+    {"steps": 1, "scope": "subset", "episodes": 100, "successes": 89},
+    {"steps": 2, "scope": "subset", "episodes": 100, "successes": 87},
+    {"steps": 5, "scope": "subset", "episodes": 100, "successes": 84},
+    {"steps": 10, "scope": "subset", "episodes": 100, "successes": 80},
+    {"steps": 20, "scope": "subset", "episodes": 100, "successes": 76},
+    {"steps": 50, "scope": "subset", "episodes": 100, "successes": 77}
+  ]
+}

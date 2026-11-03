@@ -10,7 +10,7 @@ import sys
 
 os.environ.setdefault("MUJOCO_GL", "egl")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
-sys.path.insert(0, "/home/ps/openvla/openvla-oft")
+sys.path.insert(0, os.environ.get("OFT_SOURCE", os.path.expanduser("~/vla-work/openvla-oft")))
 
 import numpy as np
 import torch

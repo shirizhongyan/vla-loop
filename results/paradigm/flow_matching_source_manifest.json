@@ -1,0 +1,26 @@
+{
+  "upstream_commit": "e4287e94541f459edc4feabc4e181f537cd569a8",
+  "evaluated_checkpoint": "openvla-7b-fm+libero_spatial_no_noops+b16+lr-0.0005+lora-r32+dropout-0.0--image_aug--paradigm_fm--10000_chkpt",
+  "source_files": [
+    {
+      "path": "experiments/robot/libero/run_libero_eval.py",
+      "sha256": "49d8ff32cb717bb7dd0f688e1be396337f02c97f6ece319b288ec2c05dd9ac15"
+    },
+    {
+      "path": "experiments/robot/openvla_utils.py",
+      "sha256": "c5d0817b8f019b93da1466bb299061f8e1a1181972a52e514376aede8f37f128"
+    },
+    {
+      "path": "prismatic/extern/hf/modeling_prismatic.py",
+      "sha256": "7f04282773305d6f354aa9405d0bb6f59146a80823baa60b88dd50b3aba7d658"
+    },
+    {
+      "path": "prismatic/models/action_heads.py",
+      "sha256": "fc138720a322d2e5b8e81f474ee8b687814e148e38df3e4c1e6c9c12599ecb67"
+    },
+    {
+      "path": "vla-scripts/finetune.py",
+      "sha256": "27a9651d39adb20df879f82511b4368bb27fd1ab1f889252e8d9786decfca54c"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+run_id,task,episodes,successes,success_rate
+flow_matching_steps_1_full,pick up the black bowl between the plate and the ramekin and place it on the plate,50,49,0.98
+flow_matching_steps_1_full,pick up the black bowl next to the ramekin and place it on the plate,50,50,1.0
+flow_matching_steps_1_full,pick up the black bowl from table center and place it on the plate,50,50,1.0
+flow_matching_steps_1_full,pick up the black bowl on the cookie box and place it on the plate,50,49,0.98
+flow_matching_steps_1_full,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,50,48,0.96
+flow_matching_steps_1_full,pick up the black bowl on the ramekin and place it on the plate,50,48,0.96
+flow_matching_steps_1_full,pick up the black bowl next to the cookie box and place it on the plate,50,50,1.0
+flow_matching_steps_1_full,pick up the black bowl on the stove and place it on the plate,50,21,0.42
+flow_matching_steps_1_full,pick up the black bowl next to the plate and place it on the plate,50,50,1.0
+flow_matching_steps_1_full,pick up the black bowl on the wooden cabinet and place it on the plate,50,20,0.4
+flow_matching_steps_2_full,pick up the black bowl between the plate and the ramekin and place it on the plate,50,48,0.96
+flow_matching_steps_2_full,pick up the black bowl next to the ramekin and place it on the plate,50,48,0.96
+flow_matching_steps_2_full,pick up the black bowl from table center and place it on the plate,50,50,1.0
+flow_matching_steps_2_full,pick up the black bowl on the cookie box and place it on the plate,50,48,0.96
+flow_matching_steps_2_full,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,50,47,0.94
+flow_matching_steps_2_full,pick up the black bowl on the ramekin and place it on the plate,50,49,0.98
+flow_matching_steps_2_full,pick up the black bowl next to the cookie box and place it on the plate,50,50,1.0
+flow_matching_steps_2_full,pick up the black bowl on the stove and place it on the plate,50,23,0.46
+flow_matching_steps_2_full,pick up the black bowl next to the plate and place it on the plate,50,49,0.98
+flow_matching_steps_2_full,pick up the black bowl on the wooden cabinet and place it on the plate,50,19,0.38
+flow_matching_steps_1_subset,pick up the black bowl between the plate and the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_1_subset,pick up the black bowl next to the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_1_subset,pick up the black bowl from table center and place it on the plate,10,10,1.0
+flow_matching_steps_1_subset,pick up the black bowl on the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_1_subset,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,10,10,1.0
+flow_matching_steps_1_subset,pick up the black bowl on the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_1_subset,pick up the black bowl next to the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_1_subset,pick up the black bowl on the stove and place it on the plate,10,5,0.5
+flow_matching_steps_1_subset,pick up the black bowl next to the plate and place it on the plate,10,10,1.0
+flow_matching_steps_1_subset,pick up the black bowl on the wooden cabinet and place it on the plate,10,4,0.4
+flow_matching_steps_2_subset,pick up the black bowl between the plate and the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_2_subset,pick up the black bowl next to the ramekin and place it on the plate,10,9,0.9
+flow_matching_steps_2_subset,pick up the black bowl from table center and place it on the plate,10,10,1.0
+flow_matching_steps_2_subset,pick up the black bowl on the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_2_subset,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,10,10,1.0
+flow_matching_steps_2_subset,pick up the black bowl on the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_2_subset,pick up the black bowl next to the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_2_subset,pick up the black bowl on the stove and place it on the plate,10,4,0.4
+flow_matching_steps_2_subset,pick up the black bowl next to the plate and place it on the plate,10,10,1.0
+flow_matching_steps_2_subset,pick up the black bowl on the wooden cabinet and place it on the plate,10,4,0.4
+flow_matching_steps_5_subset,pick up the black bowl between the plate and the ramekin and place it on the plate,10,9,0.9
+flow_matching_steps_5_subset,pick up the black bowl next to the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_5_subset,pick up the black bowl from table center and place it on the plate,10,10,1.0
+flow_matching_steps_5_subset,pick up the black bowl on the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_5_subset,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,10,7,0.7
+flow_matching_steps_5_subset,pick up the black bowl on the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_5_subset,pick up the black bowl next to the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_5_subset,pick up the black bowl on the stove and place it on the plate,10,5,0.5
+flow_matching_steps_5_subset,pick up the black bowl next to the plate and place it on the plate,10,8,0.8
+flow_matching_steps_5_subset,pick up the black bowl on the wooden cabinet and place it on the plate,10,5,0.5
+flow_matching_steps_10_subset,pick up the black bowl between the plate and the ramekin and place it on the plate,10,7,0.7
+flow_matching_steps_10_subset,pick up the black bowl next to the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_10_subset,pick up the black bowl from table center and place it on the plate,10,10,1.0
+flow_matching_steps_10_subset,pick up the black bowl on the cookie box and place it on the plate,10,9,0.9
+flow_matching_steps_10_subset,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,10,6,0.6
+flow_matching_steps_10_subset,pick up the black bowl on the ramekin and place it on the plate,10,9,0.9
+flow_matching_steps_10_subset,pick up the black bowl next to the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_10_subset,pick up the black bowl on the stove and place it on the plate,10,6,0.6
+flow_matching_steps_10_subset,pick up the black bowl next to the plate and place it on the plate,10,8,0.8
+flow_matching_steps_10_subset,pick up the black bowl on the wooden cabinet and place it on the plate,10,5,0.5
+flow_matching_steps_20_subset,pick up the black bowl between the plate and the ramekin and place it on the plate,10,7,0.7
+flow_matching_steps_20_subset,pick up the black bowl next to the ramekin and place it on the plate,10,9,0.9
+flow_matching_steps_20_subset,pick up the black bowl from table center and place it on the plate,10,9,0.9
+flow_matching_steps_20_subset,pick up the black bowl on the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_20_subset,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,10,6,0.6
+flow_matching_steps_20_subset,pick up the black bowl on the ramekin and place it on the plate,10,10,1.0
+flow_matching_steps_20_subset,pick up the black bowl next to the cookie box and place it on the plate,10,9,0.9
+flow_matching_steps_20_subset,pick up the black bowl on the stove and place it on the plate,10,3,0.3
+flow_matching_steps_20_subset,pick up the black bowl next to the plate and place it on the plate,10,9,0.9
+flow_matching_steps_20_subset,pick up the black bowl on the wooden cabinet and place it on the plate,10,4,0.4
+flow_matching_steps_50_subset,pick up the black bowl between the plate and the ramekin and place it on the plate,10,7,0.7
+flow_matching_steps_50_subset,pick up the black bowl next to the ramekin and place it on the plate,10,8,0.8
+flow_matching_steps_50_subset,pick up the black bowl from table center and place it on the plate,10,10,1.0
+flow_matching_steps_50_subset,pick up the black bowl on the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_50_subset,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,10,8,0.8
+flow_matching_steps_50_subset,pick up the black bowl on the ramekin and place it on the plate,10,9,0.9
+flow_matching_steps_50_subset,pick up the black bowl next to the cookie box and place it on the plate,10,10,1.0
+flow_matching_steps_50_subset,pick up the black bowl on the stove and place it on the plate,10,4,0.4
+flow_matching_steps_50_subset,pick up the black bowl next to the plate and place it on the plate,10,10,1.0
+flow_matching_steps_50_subset,pick up the black bowl on the wooden cabinet and place it on the plate,10,1,0.1

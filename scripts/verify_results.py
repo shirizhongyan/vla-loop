@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 from summarize_eval import parse_log, summarize
+from export_step_sweep import build_outputs
 
 
 def main():
@@ -43,6 +44,8 @@ def main():
     assert len(history) == 1001
     assert int(history[0]["step"]) == 0 and int(history[-1]["step"]) == 10000
     assert abs(float(history[-1]["loss"]) - 0.09079742431640625) < 1e-12
+    for relative, content in build_outputs(root).items():
+        assert (root / relative).read_text() == content, relative
     print(f"Verified {len(records)} runs, {len(episodes)} outcomes, "
           f"{len(history)} training records and published evidence hashes.")
 

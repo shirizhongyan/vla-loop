@@ -1,0 +1,135 @@
+{
+  "protocol": {
+    "suite": "libero_spatial",
+    "seed": 7,
+    "checkpoint_training_steps": 10000,
+    "checkpoint_run": "paradigm_fm",
+    "num_open_loop_steps": 8,
+    "num_images_in_input": 1,
+    "use_proprio": false,
+    "load_in_8bit": true
+  },
+  "runs": [
+    {
+      "run_id": "flow_matching_steps_1_full",
+      "steps": 1,
+      "scope": "full",
+      "episodes": 500,
+      "successes": 435,
+      "success_rate": 0.87,
+      "wilson_95_interval": [
+        0.8376786384230859,
+        0.8966793496353656
+      ],
+      "evidence": "results/paradigm/evaluations/flow_matching_steps_1_full.txt",
+      "sha256": "3977e3d7a5340eccf5472edcf7d2cceeb27738277b5e0f435fead22e9b4100ca"
+    },
+    {
+      "run_id": "flow_matching_steps_2_full",
+      "steps": 2,
+      "scope": "full",
+      "episodes": 500,
+      "successes": 431,
+      "success_rate": 0.862,
+      "wilson_95_interval": [
+        0.8289979864047199,
+        0.8894819911011163
+      ],
+      "evidence": "results/paradigm/evaluations/flow_matching_steps_2_full.txt",
+      "sha256": "cd2754484cf711a59f38f54d6212a9a95080e72926daa63d66f6ae3a9ee493a9"
+    },
+    {
+      "run_id": "flow_matching_steps_1_subset",
+      "steps": 1,
+      "scope": "subset",
+      "episodes": 100,
+      "successes": 89,
+      "success_rate": 0.89,
+      "wilson_95_interval": [
+        0.8136870349691969,
+        0.9374580364293543
+      ],
+      "evidence": "results/paradigm/evaluations/flow_matching_steps_1_subset.txt",
+      "sha256": "7be0c8be3b7799f851f7d440dede73ddc55f6a2c60a6874ea15a9e01b98cdf2c"
+    },
+    {
+      "run_id": "flow_matching_steps_2_subset",
+      "steps": 2,
+      "scope": "subset",
+      "episodes": 100,
+      "successes": 87,
+      "success_rate": 0.87,
+      "wilson_95_interval": [
+        0.7901964855992357,
+        0.9224283257275948
+      ],
+      "evidence": "results/paradigm/evaluations/flow_matching_steps_2_subset.txt",
+      "sha256": "8b55a0c75194b79a23cd4dd30037e2b28b14c711c4afe8df9de4bc510718e1ad"
+    },
+    {
+      "run_id": "flow_matching_steps_5_subset",
+      "steps": 5,
+      "scope": "subset",
+      "episodes": 100,
+      "successes": 84,
+      "success_rate": 0.84,
+      "wilson_95_interval": [
+        0.7557973061072976,
+        0.8990471151119521
+      ],
+      "evidence": "results/paradigm/evaluations/flow_matching_steps_5_subset.txt",
+      "sha256": "68e15d72b935506d5df07e5b50b90afae0ad93263855ce280dac2988f2c1aca2"
+    },
+    {
+      "run_id": "flow_matching_steps_10_subset",
+      "steps": 10,
+      "scope": "subset",
+      "episodes": 100,
+      "successes": 80,
+      "success_rate": 0.8,
+      "wilson_95_interval": [
+        0.7111708344068411,
+        0.8666330666689676
+      ],
+      "evidence": "results/paradigm/evaluations/flow_matching_steps_10_subset.txt",
+      "sha256": "7b5c0da55b4fe0aa3dc120763dab0b5b954d43c64192827975cec0bebc833fce"
+    },
+    {
+      "run_id": "flow_matching_steps_20_subset",
+      "steps": 20,
+      "scope": "subset",
+      "episodes": 100,
+      "successes": 76,
+      "success_rate": 0.76,
+      "wilson_95_interval": [
+        0.6676766365018553,
+        0.8330867444305122
+      ],
+      "evidence": "results/paradigm/evaluations/flow_matching_steps_20_subset.txt",
+      "sha256": "02d2e3afb66d3525273e7b26d405765e2698d9aa0a0488b74af660bc3d8c8619"
+    },
+    {
+      "run_id": "flow_matching_steps_50_subset",
+      "steps": 50,
+      "scope": "subset",
+      "episodes": 100,
+      "successes": 77,
+      "success_rate": 0.77,
+      "wilson_95_interval": [
+        0.6784561697712622,
+        0.8415673411969654
+      ],
+      "evidence": "results/paradigm/evaluations/flow_matching_steps_50_subset.txt",
+      "sha256": "5638f0c984cc633c2d049894d85d6e6815dc24ac482101ed836033565e8f0961"
+    }
+  ],
+  "paired_full_steps_1_vs_2": {
+    "pairing": "Task description and LIBERO default initial-state index",
+    "warning": "Same initial states do not imply identical sampled action noise.",
+    "both_success": 422,
+    "steps_1_only_success": 13,
+    "steps_2_only_success": 9,
+    "both_failure": 56,
+    "mcnemar_exact_two_sided_p": 0.5234670639038086
+  }
+}

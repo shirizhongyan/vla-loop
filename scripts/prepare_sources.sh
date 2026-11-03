@@ -26,7 +26,9 @@ for name in ("openvla", "openvla-oft", "LIBERO"):
     target = workspace / name
     subprocess.run(["git", "clone", "--no-checkout", source["url"], str(target)], check=True)
     subprocess.run(["git", "-C", str(target), "checkout", "--detach", source["commit"]], check=True)
-for name, patch in (("openvla", "openvla-eval.patch"), ("openvla-oft", "oft-16gb.patch")):
+import os
+oft_patch = "flow-matching.patch" if os.environ.get("WITH_FLOW_MATCHING") == "1" else "oft-16gb.patch"
+for name, patch in (("openvla", "openvla-eval.patch"), ("openvla-oft", oft_patch)):
     subprocess.run(["git", "-C", str(workspace / name),
                     "apply", "--check", str(root / "patches" / patch)], check=True)
     subprocess.run(["git", "-C", str(workspace / name),

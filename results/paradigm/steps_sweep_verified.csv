@@ -1,0 +1,9 @@
+run_id,steps,scope,episodes,successes,success_rate
+flow_matching_steps_1_full,1,full,500,435,0.87
+flow_matching_steps_2_full,2,full,500,431,0.862
+flow_matching_steps_1_subset,1,subset,100,89,0.89
+flow_matching_steps_2_subset,2,subset,100,87,0.87
+flow_matching_steps_5_subset,5,subset,100,84,0.84
+flow_matching_steps_10_subset,10,subset,100,80,0.8
+flow_matching_steps_20_subset,20,subset,100,76,0.76
+flow_matching_steps_50_subset,50,subset,100,77,0.77
