@@ -1,0 +1,47 @@
+{
+  "format": "vla-loop-model-release-validation-v1",
+  "validated_at": "2026-11-06T02:50:19.865454+00:00",
+  "validation_scope": "Pinned base plus released delta: merged backbone tensor equality and independent inference smoke test, not a new full-suite score.",
+  "models": {
+    "l1": {
+      "restore": {
+        "model": "l1",
+        "base_revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+        "bundle_files_verified": 19,
+        "base_shards_verified": 3,
+        "restore_precision": "CPU BF16, PEFT merge_and_unload",
+        "reference_tensors_bitwise_equal": 982
+      },
+      "inference_smoke": {
+        "task_id": 0,
+        "initial_state_id": 0,
+        "base_seed": 7,
+        "success": true,
+        "control_steps": 107,
+        "policy_queries": 14
+      },
+      "payload_bytes": 1273510694,
+      "bundle_file_count": 19
+    },
+    "fm": {
+      "restore": {
+        "model": "fm",
+        "base_revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+        "bundle_files_verified": 20,
+        "base_shards_verified": 3,
+        "restore_precision": "CPU BF16, PEFT merge_and_unload",
+        "reference_tensors_bitwise_equal": 982
+      },
+      "inference_smoke": {
+        "task_id": 0,
+        "initial_state_id": 0,
+        "base_seed": 7,
+        "success": true,
+        "control_steps": 78,
+        "policy_queries": 10
+      },
+      "payload_bytes": 1340672656,
+      "bundle_file_count": 20
+    }
+  }
+}

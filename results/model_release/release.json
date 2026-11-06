@@ -1,0 +1,20 @@
+{
+  "repository": "shirizhongyan/vla-loop",
+  "release": "final-spatial-10k",
+  "base_model": "openvla/openvla-7b",
+  "base_revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+  "assets": [
+    {
+      "name": "vla-loop-fm-10000-delta.tar.gz",
+      "bytes": 981576196,
+      "sha256": "8814231556de56d0a3667273c0463739c940aa6e553f70262290725636497f16"
+    },
+    {
+      "name": "vla-loop-l1-10000-delta.tar.gz",
+      "bytes": 917671173,
+      "sha256": "301d94c93246c9434c21558045546905aa47b40cbfc9125a733d9fd8ec6a23b7"
+    }
+  ],
+  "restore_script": "scripts/restore_model_delta.py",
+  "validation": "results/model_release/restore-validation.json"
+}
